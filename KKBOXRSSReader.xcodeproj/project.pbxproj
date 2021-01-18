@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3FCFEB225B5B06000873A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB125B5B06000873A0F /* AppDelegate.swift */; };
+		C3FCFEB425B5B06000873A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */; };
+		C3FCFEB625B5B06000873A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB525B5B06000873A0F /* ViewController.swift */; };
+		C3FCFEB925B5B06000873A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEB725B5B06000873A0F /* Main.storyboard */; };
+		C3FCFEBB25B5B06300873A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEBA25B5B06300873A0F /* Assets.xcassets */; };
+		C3FCFEBE25B5B06300873A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */; };
+		C3FCFEC925B5B06300873A0F /* KKBOXRSSReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEC825B5B06300873A0F /* KKBOXRSSReaderTests.swift */; };
+		C3FCFED425B5B06300873A0F /* KKBOXRSSReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFED325B5B06300873A0F /* KKBOXRSSReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FCFEC525B5B06300873A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FCFEA625B5B06000873A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FCFEAD25B5B06000873A0F;
+			remoteInfo = KKBOXRSSReader;
+		};
+		C3FCFED025B5B06300873A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FCFEA625B5B06000873A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FCFEAD25B5B06000873A0F;
+			remoteInfo = KKBOXRSSReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3FCFEAE25B5B06000873A0F /* KKBOXRSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBOXRSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCFEB125B5B06000873A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3FCFEB525B5B06000873A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FCFEB825B5B06000873A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3FCFEBA25B5B06300873A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3FCFEBD25B5B06300873A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3FCFEBF25B5B06300873A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCFEC425B5B06300873A0F /* KKBOXRSSReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXRSSReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCFEC825B5B06300873A0F /* KKBOXRSSReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXRSSReaderTests.swift; sourceTree = "<group>"; };
+		C3FCFECA25B5B06300873A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCFECF25B5B06300873A0F /* KKBOXRSSReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXRSSReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCFED325B5B06300873A0F /* KKBOXRSSReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXRSSReaderUITests.swift; sourceTree = "<group>"; };
+		C3FCFED525B5B06300873A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FCFEAB25B5B06000873A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFEC125B5B06300873A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFECC25B5B06300873A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FCFEA525B5B06000873A0F = {
+			isa = PBXGroup;
+			children = (
+				C3FCFEB025B5B06000873A0F /* KKBOXRSSReader */,
+				C3FCFEC725B5B06300873A0F /* KKBOXRSSReaderTests */,
+				C3FCFED225B5B06300873A0F /* KKBOXRSSReaderUITests */,
+				C3FCFEAF25B5B06000873A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FCFEAF25B5B06000873A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFEAE25B5B06000873A0F /* KKBOXRSSReader.app */,
+				C3FCFEC425B5B06300873A0F /* KKBOXRSSReaderTests.xctest */,
+				C3FCFECF25B5B06300873A0F /* KKBOXRSSReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FCFEB025B5B06000873A0F /* KKBOXRSSReader */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFEB125B5B06000873A0F /* AppDelegate.swift */,
+				C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */,
+				C3FCFEB525B5B06000873A0F /* ViewController.swift */,
+				C3FCFEB725B5B06000873A0F /* Main.storyboard */,
+				C3FCFEBA25B5B06300873A0F /* Assets.xcassets */,
+				C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */,
+				C3FCFEBF25B5B06300873A0F /* Info.plist */,
+			);
+			path = KKBOXRSSReader;
+			sourceTree = "<group>";
+		};
+		C3FCFEC725B5B06300873A0F /* KKBOXRSSReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFEC825B5B06300873A0F /* KKBOXRSSReaderTests.swift */,
+				C3FCFECA25B5B06300873A0F /* Info.plist */,
+			);
+			path = KKBOXRSSReaderTests;
+			sourceTree = "<group>";
+		};
+		C3FCFED225B5B06300873A0F /* KKBOXRSSReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFED325B5B06300873A0F /* KKBOXRSSReaderUITests.swift */,
+				C3FCFED525B5B06300873A0F /* Info.plist */,
+			);
+			path = KKBOXRSSReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FCFEAD25B5B06000873A0F /* KKBOXRSSReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCFED825B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReader" */;
+			buildPhases = (
+				C3FCFEAA25B5B06000873A0F /* Sources */,
+				C3FCFEAB25B5B06000873A0F /* Frameworks */,
+				C3FCFEAC25B5B06000873A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKBOXRSSReader;
+			productName = KKBOXRSSReader;
+			productReference = C3FCFEAE25B5B06000873A0F /* KKBOXRSSReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FCFEC325B5B06300873A0F /* KKBOXRSSReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCFEDB25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderTests" */;
+			buildPhases = (
+				C3FCFEC025B5B06300873A0F /* Sources */,
+				C3FCFEC125B5B06300873A0F /* Frameworks */,
+				C3FCFEC225B5B06300873A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FCFEC625B5B06300873A0F /* PBXTargetDependency */,
+			);
+			name = KKBOXRSSReaderTests;
+			productName = KKBOXRSSReaderTests;
+			productReference = C3FCFEC425B5B06300873A0F /* KKBOXRSSReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3FCFECE25B5B06300873A0F /* KKBOXRSSReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCFEDE25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderUITests" */;
+			buildPhases = (
+				C3FCFECB25B5B06300873A0F /* Sources */,
+				C3FCFECC25B5B06300873A0F /* Frameworks */,
+				C3FCFECD25B5B06300873A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FCFED125B5B06300873A0F /* PBXTargetDependency */,
+			);
+			name = KKBOXRSSReaderUITests;
+			productName = KKBOXRSSReaderUITests;
+			productReference = C3FCFECF25B5B06300873A0F /* KKBOXRSSReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FCFEA625B5B06000873A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C3FCFEAD25B5B06000873A0F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C3FCFEC325B5B06300873A0F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C3FCFEAD25B5B06000873A0F;
+					};
+					C3FCFECE25B5B06300873A0F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C3FCFEAD25B5B06000873A0F;
+					};
+				};
+			};
+			buildConfigurationList = C3FCFEA925B5B06000873A0F /* Build configuration list for PBXProject "KKBOXRSSReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3FCFEA525B5B06000873A0F;
+			productRefGroup = C3FCFEAF25B5B06000873A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FCFEAD25B5B06000873A0F /* KKBOXRSSReader */,
+				C3FCFEC325B5B06300873A0F /* KKBOXRSSReaderTests */,
+				C3FCFECE25B5B06300873A0F /* KKBOXRSSReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FCFEAC25B5B06000873A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCFEBE25B5B06300873A0F /* LaunchScreen.storyboard in Resources */,
+				C3FCFEBB25B5B06300873A0F /* Assets.xcassets in Resources */,
+				C3FCFEB925B5B06000873A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFEC225B5B06300873A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFECD25B5B06300873A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FCFEAA25B5B06000873A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCFEB625B5B06000873A0F /* ViewController.swift in Sources */,
+				C3FCFEB225B5B06000873A0F /* AppDelegate.swift in Sources */,
+				C3FCFEB425B5B06000873A0F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFEC025B5B06300873A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCFEC925B5B06300873A0F /* KKBOXRSSReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCFECB25B5B06300873A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCFED425B5B06300873A0F /* KKBOXRSSReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FCFEC625B5B06300873A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FCFEAD25B5B06000873A0F /* KKBOXRSSReader */;
+			targetProxy = C3FCFEC525B5B06300873A0F /* PBXContainerItemProxy */;
+		};
+		C3FCFED125B5B06300873A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FCFEAD25B5B06000873A0F /* KKBOXRSSReader */;
+			targetProxy = C3FCFED025B5B06300873A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3FCFEB725B5B06000873A0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FCFEB825B5B06000873A0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FCFEBD25B5B06300873A0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3FCFED625B5B06300873A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3FCFED725B5B06300873A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3FCFED925B5B06300873A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3FCFEDA25B5B06300873A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3FCFEDC25B5B06300873A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBOXRSSReader.app/KKBOXRSSReader";
+			};
+			name = Debug;
+		};
+		C3FCFEDD25B5B06300873A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBOXRSSReader.app/KKBOXRSSReader";
+			};
+			name = Release;
+		};
+		C3FCFEDF25B5B06300873A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKBOXRSSReader;
+			};
+			name = Debug;
+		};
+		C3FCFEE025B5B06300873A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD878HBDH2;
+				INFOPLIST_FILE = KKBOXRSSReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKBOXRSSReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FCFEA925B5B06000873A0F /* Build configuration list for PBXProject "KKBOXRSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCFED625B5B06300873A0F /* Debug */,
+				C3FCFED725B5B06300873A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCFED825B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCFED925B5B06300873A0F /* Debug */,
+				C3FCFEDA25B5B06300873A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCFEDB25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCFEDC25B5B06300873A0F /* Debug */,
+				C3FCFEDD25B5B06300873A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCFEDE25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCFEDF25B5B06300873A0F /* Debug */,
+				C3FCFEE025B5B06300873A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FCFEA625B5B06000873A0F /* Project object */;
+}
