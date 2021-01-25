@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343790F8B1F5D7B889608591 /* Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB944987DF22E5B0006026D /* Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework */; };
+		B155EFB25A30A65081486936 /* Pods_KKBOXRSSReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75A14D5B9E108D829AD47A3 /* Pods_KKBOXRSSReaderTests.framework */; };
+		B44009BB452BF5049A45C22B /* Pods_KKBOXRSSReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF36448663A0EBA5269FA07 /* Pods_KKBOXRSSReader.framework */; };
+		C001AC5E25BEBBA900D69621 /* UIDevice+ModelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C001AC5D25BEBBA900D69621 /* UIDevice+ModelName.swift */; };
+		C33E36E525BC200300094C25 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = C33E36E425BC200300094C25 /* Channel.m */; };
+		C33E36ED25BC27D800094C25 /* PlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E36EC25BC27D800094C25 /* PlayerControlView.swift */; };
+		C33E36F225BC2DE600094C25 /* PlayerControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E36F125BC2DE500094C25 /* PlayerControlViewModel.swift */; };
+		C33E36F725BC314A00094C25 /* Data+AVAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E36F625BC314900094C25 /* Data+AVAsset.swift */; };
+		C34A792E25B9CCC3000AF4B7 /* EpisodeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A792D25B9CCC3000AF4B7 /* EpisodeInfoViewController.swift */; };
+		C34A793325B9CCEE000AF4B7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A793225B9CCEE000AF4B7 /* PlayerViewController.swift */; };
+		C34A794E25B9CF31000AF4B7 /* EpisodeInfoVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A794D25B9CF31000AF4B7 /* EpisodeInfoVCVM.swift */; };
+		C3B205BD25BDACB300306C6C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B205BC25BDACB300306C6C /* Constant.swift */; };
+		C3BC037A25B9D82A00E0F977 /* UITextView+AdjustHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC037925B9D82A00E0F977 /* UITextView+AdjustHeight.swift */; };
+		C3BC037F25B9DDFE00E0F977 /* UIScrollView+UpdateContentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC037E25B9DDFE00E0F977 /* UIScrollView+UpdateContentSize.swift */; };
 		C3FCFEB225B5B06000873A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB125B5B06000873A0F /* AppDelegate.swift */; };
 		C3FCFEB425B5B06000873A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */; };
-		C3FCFEB625B5B06000873A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEB525B5B06000873A0F /* ViewController.swift */; };
-		C3FCFEB925B5B06000873A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEB725B5B06000873A0F /* Main.storyboard */; };
 		C3FCFEBB25B5B06300873A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEBA25B5B06300873A0F /* Assets.xcassets */; };
 		C3FCFEBE25B5B06300873A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */; };
 		C3FCFEC925B5B06300873A0F /* KKBOXRSSReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEC825B5B06300873A0F /* KKBOXRSSReaderTests.swift */; };
 		C3FCFED425B5B06300873A0F /* KKBOXRSSReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFED325B5B06300873A0F /* KKBOXRSSReaderUITests.swift */; };
+		C3FCFEF125B5B1FB00873A0F /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFEF025B5B1FB00873A0F /* Episode.m */; };
+		C3FCFF1625B7096600873A0F /* HomeVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFF1525B7096600873A0F /* HomeVCVM.swift */; };
+		C3FCFF1E25B70C8B00873A0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFF1D25B70C8B00873A0F /* HomeViewController.swift */; };
+		C3FCFF2625B7142D00873A0F /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCFF2525B7142D00873A0F /* EpisodeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +51,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06DB6DC34604C6FDD1234337 /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1366D6F3140B2A4C36DE427E /* Pods-KKBOXRSSReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReaderTests/Pods-KKBOXRSSReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		201BB19F93B99976C3E8AD7B /* Pods-KKBOXRSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReader.release.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReader/Pods-KKBOXRSSReader.release.xcconfig"; sourceTree = "<group>"; };
+		3CB944987DF22E5B0006026D /* Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB57F74904C5A68BD50ED7E /* Pods-KKBOXRSSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReader.debug.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReader/Pods-KKBOXRSSReader.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF36448663A0EBA5269FA07 /* Pods_KKBOXRSSReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOXRSSReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A14D5B9E108D829AD47A3 /* Pods_KKBOXRSSReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOXRSSReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE0E8A317C336A222253D4E /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C001AC5D25BEBBA900D69621 /* UIDevice+ModelName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+ModelName.swift"; sourceTree = "<group>"; };
+		C33E36E325BC200300094C25 /* Channel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		C33E36E425BC200300094C25 /* Channel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		C33E36EC25BC27D800094C25 /* PlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlView.swift; sourceTree = "<group>"; };
+		C33E36F125BC2DE500094C25 /* PlayerControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlViewModel.swift; sourceTree = "<group>"; };
+		C33E36F625BC314900094C25 /* Data+AVAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+AVAsset.swift"; sourceTree = "<group>"; };
+		C34A792D25B9CCC3000AF4B7 /* EpisodeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInfoViewController.swift; sourceTree = "<group>"; };
+		C34A793225B9CCEE000AF4B7 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		C34A794D25B9CF31000AF4B7 /* EpisodeInfoVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInfoVCVM.swift; sourceTree = "<group>"; };
+		C3B205BC25BDACB300306C6C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C3BC037925B9D82A00E0F977 /* UITextView+AdjustHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+AdjustHeight.swift"; sourceTree = "<group>"; };
+		C3BC037E25B9DDFE00E0F977 /* UIScrollView+UpdateContentSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+UpdateContentSize.swift"; sourceTree = "<group>"; };
 		C3FCFEAE25B5B06000873A0F /* KKBOXRSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBOXRSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FCFEB125B5B06000873A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3FCFEB525B5B06000873A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3FCFEB825B5B06000873A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3FCFEBA25B5B06300873A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FCFEBD25B5B06300873A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3FCFEBF25B5B06300873A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +83,13 @@
 		C3FCFECF25B5B06300873A0F /* KKBOXRSSReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXRSSReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FCFED325B5B06300873A0F /* KKBOXRSSReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXRSSReaderUITests.swift; sourceTree = "<group>"; };
 		C3FCFED525B5B06300873A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCFEEE25B5B1FB00873A0F /* KKBOXRSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKBOXRSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3FCFEEF25B5B1FB00873A0F /* Episode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
+		C3FCFEF025B5B1FB00873A0F /* Episode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
+		C3FCFF1525B7096600873A0F /* HomeVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCVM.swift; sourceTree = "<group>"; };
+		C3FCFF1D25B70C8B00873A0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3FCFF2525B7142D00873A0F /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		FBB2C1B641CCD513A1F564B2 /* Pods-KKBOXRSSReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXRSSReaderTests.release.xcconfig"; path = "Target Support Files/Pods-KKBOXRSSReaderTests/Pods-KKBOXRSSReaderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44009BB452BF5049A45C22B /* Pods_KKBOXRSSReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B155EFB25A30A65081486936 /* Pods_KKBOXRSSReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343790F8B1F5D7B889608591 /* Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43335D817EB371D4AB7AA333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB57F74904C5A68BD50ED7E /* Pods-KKBOXRSSReader.debug.xcconfig */,
+				201BB19F93B99976C3E8AD7B /* Pods-KKBOXRSSReader.release.xcconfig */,
+				06DB6DC34604C6FDD1234337 /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.debug.xcconfig */,
+				AAE0E8A317C336A222253D4E /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.release.xcconfig */,
+				1366D6F3140B2A4C36DE427E /* Pods-KKBOXRSSReaderTests.debug.xcconfig */,
+				FBB2C1B641CCD513A1F564B2 /* Pods-KKBOXRSSReaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C10E505222553F8E577B58CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AF36448663A0EBA5269FA07 /* Pods_KKBOXRSSReader.framework */,
+				3CB944987DF22E5B0006026D /* Pods_KKBOXRSSReader_KKBOXRSSReaderUITests.framework */,
+				A75A14D5B9E108D829AD47A3 /* Pods_KKBOXRSSReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C333DE1A25BDCBA800AF4D73 /* PlayerControlView */ = {
+			isa = PBXGroup;
+			children = (
+				C33E36EC25BC27D800094C25 /* PlayerControlView.swift */,
+				C33E36F125BC2DE500094C25 /* PlayerControlViewModel.swift */,
+			);
+			path = PlayerControlView;
+			sourceTree = "<group>";
+		};
+		C33E36DC25BC0D7500094C25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3BC037925B9D82A00E0F977 /* UITextView+AdjustHeight.swift */,
+				C3BC037E25B9DDFE00E0F977 /* UIScrollView+UpdateContentSize.swift */,
+				C33E36F625BC314900094C25 /* Data+AVAsset.swift */,
+				C001AC5D25BEBBA900D69621 /* UIDevice+ModelName.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C34A793825B9CDC5000AF4B7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C34A793925B9CDD4000AF4B7 /* Home */,
+				C34A794025B9CDF8000AF4B7 /* EpisodeInfo */,
+				C34A793225B9CCEE000AF4B7 /* PlayerViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		C34A793925B9CDD4000AF4B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFF1D25B70C8B00873A0F /* HomeViewController.swift */,
+				C3FCFF1525B7096600873A0F /* HomeVCVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C34A794025B9CDF8000AF4B7 /* EpisodeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C34A792D25B9CCC3000AF4B7 /* EpisodeInfoViewController.swift */,
+				C34A794D25B9CF31000AF4B7 /* EpisodeInfoVCVM.swift */,
+			);
+			path = EpisodeInfo;
+			sourceTree = "<group>";
+		};
+		C34A794525B9CE17000AF4B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C33E36E325BC200300094C25 /* Channel.h */,
+				C33E36E425BC200300094C25 /* Channel.m */,
+				C3FCFEEF25B5B1FB00873A0F /* Episode.h */,
+				C3FCFEF025B5B1FB00873A0F /* Episode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34A794925B9CE21000AF4B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCFF2525B7142D00873A0F /* EpisodeTableViewCell.swift */,
+				C333DE1A25BDCBA800AF4D73 /* PlayerControlView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C3FCFEA525B5B06000873A0F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +218,8 @@
 				C3FCFEC725B5B06300873A0F /* KKBOXRSSReaderTests */,
 				C3FCFED225B5B06300873A0F /* KKBOXRSSReaderUITests */,
 				C3FCFEAF25B5B06000873A0F /* Products */,
+				43335D817EB371D4AB7AA333 /* Pods */,
+				C10E505222553F8E577B58CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +238,15 @@
 			children = (
 				C3FCFEB125B5B06000873A0F /* AppDelegate.swift */,
 				C3FCFEB325B5B06000873A0F /* SceneDelegate.swift */,
-				C3FCFEB525B5B06000873A0F /* ViewController.swift */,
-				C3FCFEB725B5B06000873A0F /* Main.storyboard */,
+				C3B205BC25BDACB300306C6C /* Constant.swift */,
+				C34A793825B9CDC5000AF4B7 /* VC */,
+				C34A794925B9CE21000AF4B7 /* View */,
+				C34A794525B9CE17000AF4B7 /* Model */,
+				C33E36DC25BC0D7500094C25 /* Extension */,
 				C3FCFEBA25B5B06300873A0F /* Assets.xcassets */,
 				C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */,
 				C3FCFEBF25B5B06300873A0F /* Info.plist */,
+				C3FCFEEE25B5B1FB00873A0F /* KKBOXRSSReader-Bridging-Header.h */,
 			);
 			path = KKBOXRSSReader;
 			sourceTree = "<group>";
@@ -135,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FCFED825B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReader" */;
 			buildPhases = (
+				18D8CEDF77386143269A2644 /* [CP] Check Pods Manifest.lock */,
 				C3FCFEAA25B5B06000873A0F /* Sources */,
 				C3FCFEAB25B5B06000873A0F /* Frameworks */,
 				C3FCFEAC25B5B06000873A0F /* Resources */,
+				C6ADEC9E513DD8DA49D4B91B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FCFEDB25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderTests" */;
 			buildPhases = (
+				7DDE6B2C91E4C8E9664D60DF /* [CP] Check Pods Manifest.lock */,
 				C3FCFEC025B5B06300873A0F /* Sources */,
 				C3FCFEC125B5B06300873A0F /* Frameworks */,
 				C3FCFEC225B5B06300873A0F /* Resources */,
@@ -170,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FCFEDE25B5B06300873A0F /* Build configuration list for PBXNativeTarget "KKBOXRSSReaderUITests" */;
 			buildPhases = (
+				6D099C2D2D70BB89E2541B4B /* [CP] Check Pods Manifest.lock */,
 				C3FCFECB25B5B06300873A0F /* Sources */,
 				C3FCFECC25B5B06300873A0F /* Frameworks */,
 				C3FCFECD25B5B06300873A0F /* Resources */,
+				EDE92DF6CC90014B0C56CD56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +341,7 @@
 				TargetAttributes = {
 					C3FCFEAD25B5B06000873A0F = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					C3FCFEC325B5B06300873A0F = {
 						CreatedOnToolsVersion = 12.3;
@@ -233,7 +380,6 @@
 			files = (
 				C3FCFEBE25B5B06300873A0F /* LaunchScreen.storyboard in Resources */,
 				C3FCFEBB25B5B06300873A0F /* Assets.xcassets in Resources */,
-				C3FCFEB925B5B06000873A0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +399,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18D8CEDF77386143269A2644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOXRSSReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D099C2D2D70BB89E2541B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DDE6B2C91E4C8E9664D60DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOXRSSReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6ADEC9E513DD8DA49D4B91B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader/Pods-KKBOXRSSReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader/Pods-KKBOXRSSReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader/Pods-KKBOXRSSReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE92DF6CC90014B0C56CD56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests/Pods-KKBOXRSSReader-KKBOXRSSReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3FCFEAA25B5B06000873A0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FCFEB625B5B06000873A0F /* ViewController.swift in Sources */,
+				C33E36E525BC200300094C25 /* Channel.m in Sources */,
+				C34A794E25B9CF31000AF4B7 /* EpisodeInfoVCVM.swift in Sources */,
+				C3FCFF1E25B70C8B00873A0F /* HomeViewController.swift in Sources */,
+				C001AC5E25BEBBA900D69621 /* UIDevice+ModelName.swift in Sources */,
+				C3BC037A25B9D82A00E0F977 /* UITextView+AdjustHeight.swift in Sources */,
+				C3FCFEF125B5B1FB00873A0F /* Episode.m in Sources */,
 				C3FCFEB225B5B06000873A0F /* AppDelegate.swift in Sources */,
+				C33E36F225BC2DE600094C25 /* PlayerControlViewModel.swift in Sources */,
+				C3FCFF2625B7142D00873A0F /* EpisodeTableViewCell.swift in Sources */,
+				C33E36F725BC314A00094C25 /* Data+AVAsset.swift in Sources */,
+				C34A793325B9CCEE000AF4B7 /* PlayerViewController.swift in Sources */,
+				C3B205BD25BDACB300306C6C /* Constant.swift in Sources */,
+				C3FCFF1625B7096600873A0F /* HomeVCVM.swift in Sources */,
+				C3BC037F25B9DDFE00E0F977 /* UIScrollView+UpdateContentSize.swift in Sources */,
+				C33E36ED25BC27D800094C25 /* PlayerControlView.swift in Sources */,
+				C34A792E25B9CCC3000AF4B7 /* EpisodeInfoViewController.swift in Sources */,
 				C3FCFEB425B5B06000873A0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +559,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3FCFEB725B5B06000873A0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3FCFEB825B5B06000873A0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3FCFEBC25B5B06300873A0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,18 +688,23 @@
 		};
 		C3FCFED925B5B06300873A0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB57F74904C5A68BD50ED7E /* Pods-KKBOXRSSReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VD878HBDH2;
 				INFOPLIST_FILE = KKBOXRSSReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KKBOXRSSReader/KKBOXRSSReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,18 +712,22 @@
 		};
 		C3FCFEDA25B5B06300873A0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201BB19F93B99976C3E8AD7B /* Pods-KKBOXRSSReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VD878HBDH2;
 				INFOPLIST_FILE = KKBOXRSSReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.botw.KKBOXRSSReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KKBOXRSSReader/KKBOXRSSReader-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +735,7 @@
 		};
 		C3FCFEDC25B5B06300873A0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1366D6F3140B2A4C36DE427E /* Pods-KKBOXRSSReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +758,7 @@
 		};
 		C3FCFEDD25B5B06300873A0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB2C1B641CCD513A1F564B2 /* Pods-KKBOXRSSReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +781,7 @@
 		};
 		C3FCFEDF25B5B06300873A0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DB6DC34604C6FDD1234337 /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +802,7 @@
 		};
 		C3FCFEE025B5B06300873A0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE0E8A317C336A222253D4E /* Pods-KKBOXRSSReader-KKBOXRSSReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_KKBOXRSSReader {
+  umbrella header "Pods-KKBOXRSSReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
