@@ -50,6 +50,7 @@ class PlayerControlViewModel: NSObject {
                     item.addObserver(strongSelf, forKeyPath: #keyPath(AVPlayerItem.status), options: [.old, .new], context: &strongSelf.playerItemContext)
                     DispatchQueue.main.async {
                         strongSelf.player = AVPlayer(playerItem: item)
+                        try! AVAudioSession.sharedInstance().setCategory(.playback)
                     }
                 }
             }
